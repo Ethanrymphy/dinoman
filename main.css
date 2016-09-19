@@ -1,0 +1,29 @@
+body {
+  background: #bada55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+h1 {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  animation: bounce 5s infinite;
+  margin-top: -80px; }
+
+@keyframes bounce {
+  0%,100% {
+    transform: rotate(0); }
+  20% {
+    transform: rotate(10deg); }
+  40%,50% {
+    transform: rotate(0); }
+  80% {
+    transform: rotate(-10deg); } }
+.giphy, .giphy1, .giphy2, .giphy3, .giphy4, .giphy5 {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: -99; }
+
+/*# sourceMappingURL=main.css.map */
